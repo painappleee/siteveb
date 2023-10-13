@@ -1,0 +1,66 @@
+section{
+    text-align: justify;
+    background-color: bisque;
+    opacity: 78%;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 200px;    
+}
+.card{
+    border: 3px dashed black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;  
+    
+}
+.allcards{
+    display: flex;
+    flex-direction: column;
+}
+.photo{
+    background: center no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    float:left;
+    margin: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    .photo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .photo{
+        float:none;
+        align-self: center;
+    }
+}
+body{
+    background-image: url(/img/shot-of-a-wooden-cabin-near-trees-in-a-forest.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    margin: 10px;
+    padding: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+
+
